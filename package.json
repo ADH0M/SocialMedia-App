@@ -1,6 +1,5 @@
 {
   "name": "my-project",
-  "homepage": "https://github.com/ADH0M/SocialMedia-App",
   "private": true,
   "version": "0.0.0",
   "type": "module",

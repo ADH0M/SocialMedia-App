@@ -38,8 +38,8 @@ const Stories = () => {
   return (
     <div className="stories">
       <div className="story">
-          <img src={currentUser.profilePic} alt="" />
-          <span>{currentUser.name}</span>
+          <img src={currentUser?.profilePic || image1 } alt="" />
+          <span>{currentUser?.name || 'john do'}</span>
           <button>+</button>
         </div>
       {stories.map(story=>(

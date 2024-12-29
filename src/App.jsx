@@ -74,8 +74,10 @@ function App() {
     },
   ]);
 
+  
   return (
     <div>
+      {/* <ProtectedRoute></ProtectedRoute> */}
       <RouterProvider router={router} />
     </div>
   );

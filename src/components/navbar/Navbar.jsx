@@ -35,11 +35,11 @@ const Navbar = () => {
         <div className="user">
         <button onClick={()=>navigate('/login')} className="logout">logout</button>
           <img
-            src={currentUser.profilePic}
+            src={currentUser?.profilePic}
             alt=""
             
           />
-          <span>{currentUser.name}</span>
+          <span>{currentUser?.name}</span>
         </div>
       </div>
     </div>
